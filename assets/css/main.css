@@ -3219,3 +3219,8 @@ input, select, textarea {
 			}
 
 	}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
