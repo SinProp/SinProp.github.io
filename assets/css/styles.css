@@ -1,0 +1,47 @@
+.recent-work {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.recent-work h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work-example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-description h3 {
+    color: #2A9D8F; /* A distinct color for the app name */
+    margin-bottom: 5px;
+}
+
+.app-description p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.tech-stack h4 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.tech-stack ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tech-stack li {
+    background-color: #e7e7e7;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: bold;
+}
