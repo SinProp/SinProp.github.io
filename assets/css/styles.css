@@ -45,3 +45,7 @@
     margin-right: 5px;
     font-weight: bold;
 }
+
+p {
+    font-size: .8em; /* Adjust the size as needed */
+}
