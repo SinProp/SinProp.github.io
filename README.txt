@@ -1,33 +1,35 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Roberto's Development Portfolio
 
+Welcome to my Development Portfolio! As a self-identified creative and computer-savvy individual, it was only a matter of time before I made my way into coding and web development. To concisely showcase my development capabilities and initiatives, I've centralized these full-stack projects for easy review.
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+## Featured Projects
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+### Labor Tracking App - Island Time
 
-(* = Not included)
+![Island Time](images/IT_Example.png)
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+**Tech Stack:** Flask, Python, SQL, AWS (EC2, S3, RDS), REST API (Smartsheets), HTML, CSS
 
-AJ
-aj@lkn.io | @ajlkn
+**Description:** Island Time is my primary development initiative at Island Millwork INC. This Full-Stack App allows the management team to accurately run post-mortem job analysis and exact the actual costs of labor vs. what was estimated originally.
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+[View on GitHub](https://github.com/SinProp/TimeTrackerApp)
 
+### Ramen Dojo
 
-Credits:
+![Ramen Dojo](images/fulls/ramendojodemo.gif)
 
-	Demo Images:
-		Unsplash (unsplash.com)
+**Tech Stack:** MERN (MongoDB, Express, React, Node.js)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+**Description:** In collaboration with three other novice programmers, we created this restaurant concept web app "Ramen Dojo." Built with the MERN stack, this project was a great immersion into version control and operating on repository branches independently of each other.
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+[View on GitHub](https://github.com/Zfuhrman93/ramen-dojo/tree/master)
+
+## Contact
+
+Feel free to connect with me on the following platforms:
+
+- [GitHub](https://github.com/SinProp)
+- [LinkedIn](http://www.linkedin.com/in/roberto-goyco-jr)
+- [Email](titodevwork@gmail.com)
+
+Thank you for visiting my portfolio!
