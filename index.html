@@ -1,112 +1,181 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Roberto Goyco | Full‑Stack Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of full‑stack engineer Roberto Goyco. Python, Flask, React, AWS, tooling & internal platforms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/clean.css" />
+  <link rel="stylesheet" href="assets/css/code-rain.css" /> <!-- added -->
+  <link rel="icon" href="images/avatar.jpg" />
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <header class="global-nav" role="banner">
+    <div class="container">
+      <a href="#top" class="brand">RG//DEV</a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">THEME</button>
+    </div>
+  </header>
 
-<html>
-	<head>
-		<title>Roberto's Develoment Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/styles.css" />
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="intro-heading">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-core reveal">
+        <div class="avatar-shell">
+          <img src="images/HeadShot1.jpeg" alt="Portrait of Roberto Goyco" width="180" height="180" decoding="async" fetchpriority="high" />
+        </div>
+        <span class="tagline">FULL‑STACK ENGINEERING</span>
+  <h1 id="intro-heading"><span style="display:block; font-size:clamp(3.2rem,8vw,5.25rem); line-height:1; letter-spacing:-2px; font-weight:800; background:linear-gradient(90deg,#00d4ff,#ff006e); -webkit-background-clip:text; background-clip:text; color:transparent;">Roberto Goyco</span><span style="display:block; margin-top:1rem; font-size:clamp(1.15rem,2.1vw,1.4rem); font-weight:600; color:var(--text-secondary); letter-spacing:.5px;">Building pragmatic internal tools & data‑driven platforms.</span></h1>
+        <p class="hero-sub">I deliver maintainable software that reduces friction for operators & surfaces actionable insights. Comfortable across Python + Flask backends, React UI, SQL/data modeling, and AWS infrastructure. Always iterating, measuring, refining.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Work</a>
+          <a class="btn outline" href="mailto:titodevwork@gmail.com">Contact</a>
+          <a class="btn outline" href="https://github.com/SinProp" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
 
-	</head>
-	<body class="is-preload">
+    <!-- ABOUT -->
+    <section id="about" class="reveal" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">ABOUT</span>
+          <h2 id="about-heading">Craft, iteration & clarity.</h2>
+          <p>I enjoy translating ambiguous operational needs into clear, testable slices of software. I lean on fast feedback, domain empathy, and clean architecture patterns. Below are representative projects balancing reliability, usability and speed of delivery.</p>
+        </div>
+      </div>
+    </section>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/cropped_profile.jpg" alt="" /></a>
-					<h1><strong>Roberto's Portfolio</strong><br />
-					Project's Added Monthly<br />
-					</h1>
-				</div>
-			</header>
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">PROJECTS</span>
+          <h2 id="projects-heading">Featured Work</h2>
+          <p>Selected applications and prototypes. Each card lists core focus and tech involved.</p>
+        </div>
+        <div class="projects-grid" role="list">
+          <!-- ValorTrac -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-valortrac-title">
+            <div class="project-media"><img src="images/IT_Example.png" alt="ValorTrac dashboard placeholder" loading="lazy" /></div>
+            <div class="project-body">
+              <span class="project-label">Check‑In & Analytics</span>
+              <h3 id="proj-valortrac-title" class="project-title"><a href="https://github.com/SinProp/ValorTrac" target="_blank" rel="noopener">ValorTrac</a></h3>
+              <p class="project-desc">Workforce & asset check‑in platform generating audit trails & utilization insights with real‑time validation and dashboarding.</p>
+              <div class="tag-row"><span class="tag">Flask</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Auth</span><span class="tag">Dashboards</span></div>
+              <div class="project-meta"><span class="project-status">ACTIVE</span><span>Operational Intelligence</span></div>
+            </div>
+          </article>
+          <!-- Island Time -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-island-title">
+            <div class="project-media"><img src="images/IT_Example.png" alt="Island Time labor tracking dashboard" loading="lazy" /></div>
+            <div class="project-body">
+              <span class="project-label">Labor Tracking</span>
+              <h3 id="proj-island-title" class="project-title"><a href="https://github.com/SinProp/TimeTrackerApp" target="_blank" rel="noopener">Island Time</a></h3>
+              <p class="project-desc">Internal platform comparing estimated vs actual labor costs to highlight variance, enabling targeted efficiency improvements.</p>
+              <div class="tag-row"><span class="tag">Flask</span><span class="tag">AWS</span><span class="tag">Python</span><span class="tag">REST</span><span class="tag">SQL</span></div>
+              <div class="project-meta"><span class="project-status">LIVE</span><span>Cost Insights</span></div>
+            </div>
+          </article>
+          <!-- Ramen Dojo -->
+            <article class="project-card" role="listitem" aria-labelledby="proj-ramen-title">
+              <div class="project-media"><img src="images/fulls/ramendojodemo.gif" alt="Animated preview of Ramen Dojo" loading="lazy" /></div>
+              <div class="project-body">
+                <span class="project-label">Prototype</span>
+                <h3 id="proj-ramen-title" class="project-title"><a href="https://github.com/Zfuhrman93/ramen-dojo/tree/master" target="_blank" rel="noopener">Ramen Dojo</a></h3>
+                <p class="project-desc">MERN concept exploring themed menu UX & component design. Improved collaboration patterns & API integration discipline.</p>
+                <div class="tag-row"><span class="tag">MERN</span><span class="tag">React</span><span class="tag">Express</span><span class="tag">Node</span><span class="tag">UI</span></div>
+                <div class="project-meta"><span class="project-status">ARCHIVE</span><span>Prototype</span></div>
+              </div>
+            </article>
+          <!-- Upcoming -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-upcoming-title">
+            <div class="project-media"><img src="images/fulls/01.jpg" alt="Abstract placeholder for upcoming project" loading="lazy" /></div>
+            <div class="project-body">
+              <span class="project-label">Data Layer</span>
+              <h3 id="proj-upcoming-title" class="project-title">Next Build In Progress</h3>
+              <p class="project-desc">New visualization & reporting module unifying multi‑source aggregation with anomaly detection. Shipping iterations soon.</p>
+              <div class="tag-row"><span class="tag">Ingest</span><span class="tag">ETL</span><span class="tag">Viz</span><span class="tag">APIs</span></div>
+              <div class="project-meta"><span class="project-status soon">SOON</span><span>2025 Roadmap</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-		<!-- Main -->
-			<div id="main">
+    <!-- SKILLS -->
+    <section id="skills" class="reveal" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">STACK</span>
+          <h2 id="skills-heading">Skills & Tooling</h2>
+          <p>Representative stack I use to ship resilient internal products & data‑informed features.</p>
+        </div>
+        <ul class="skill-cloud" aria-label="Core technical skills">
+          <li>Python</li><li>Flask</li><li>FastAPI</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>REST APIs</li><li>SQL</li><li>Auth</li><li>CI/CD</li><li>AWS</li><li>RDS</li><li>S3</li><li>EC2</li><li>Docker</li><li>Git</li><li>Design Systems</li><li>Testing</li><li>Analytics</li>
+        </ul>
+      </div>
+    </section>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h4>As a self identified creative and computer savvy individual, it was only a matter of time before i made my way into coding and web development! <br/>
-							 To concisely showcase my development capabilties and initiatives, i've centralized these full stack projects for easy review. </h4>
-						</header>
-						<p></p>
-<!-- 						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul> -->
-					</section>
+    <!-- CONTACT -->
+    <section id="contact" class="reveal" aria-labelledby="contact-heading">
+      <div class="container" style="text-align:center;">
+        <div class="section-head">
+          <span class="section-eyebrow">CONNECT</span>
+          <h2 id="contact-heading">Let's Collaborate</h2>
+          <p class="contact-cta">Interested in internal tooling, dashboards, or pragmatic product slices? I enjoy sharpening data feedback loops & improving operator experience. Reach out with a problem space or idea.</p>
+        </div>
+        <p><a href="mailto:titodevwork@gmail.com" class="btn primary">Start a Conversation</a></p>
+      </div>
+    </section>
+  </main>
 
-				<!-- Two -->
-<section id="two">
-	<h2>Recent Work</h2>
-	<div class="row">
-		<article class="col-6 col-12-xsmall work-item">
-			<div class="image fit thumb">
-				<img src="images/IT_Example.png" alt="Labor Tracking App Screenshot" />
-			</div>
-			<h3><a href="https://github.com/SinProp/TimeTrackerApp">Labor Tracking App</a></h3>
-			<div class="tech-stack">
-				<h4>Tech Stack:</h4>
-				<ul>
-					<li>Flask</li>
-					<li>Python</li>
-					<li>SQL</li>
-					<li>AWS (EC2, S3, RDS)</li>
-					<li>REST API (Smartsheets)</li>
-					<li>HTML, CSS</li>
-				</ul>
-			</div>
-			<p>Island Time is my primary development initiative at Island Millwork INC. This Full-Stack App allows the management team to accurately run post-mortem job analysis and exact the actual costs of labor vs. what was estimated originally.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<div class="image fit thumb">
-				<img src="images/fulls/ramendojodemo.gif" alt="Ramen Dojo Preview" />
-			</div>
-			<h3><a href="https://github.com/Zfuhrman93/ramen-dojo/tree/master">Ramen Dojo</a></h3>
-			<div class="tech-stack">
-				<h4>Tech Stack:</h4>
-				<ul>
-					<li>MERN</li>
-					<li>Express</li>
-					<li>REACT</li>
-					<li>Node</li>
-					<li>Javascript</li>
-					<li>HTML, CSS</li>
-				</ul>
-			</div>
-			<p>In collaboration with 3 other novice programmers, we created this Restaurant Concept web app "Ramen Dojo". Built with the MERN stack, this project was a great immersion into version control and operating on repository branches independent of each other.</p>
-		</article>
-	</div>
-	<!--     <ul class="actions">
-        <li><a href="#" class="button">Full Portfolio</a></li>
-    </ul> -->
-</section>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#top" class="brand">RG//DEV</a>
+          <p style="margin-top:1rem; max-width:360px; color:var(--text-secondary);">Continuous improvement mindset. Always iterating, always learning.</p>
+        </div>
+        <div>
+          <h3 class="section-eyebrow" style="margin-bottom:1rem;">LINKS</h3>
+          <ul class="social-list">
+            <li><a href="https://github.com/SinProp" aria-label="GitHub" class="icon brands fa-github"></a></li>
+            <li><a href="http://www.linkedin.com/in/roberto-goyco-jr" aria-label="LinkedIn" class="icon brands fa-linkedin"></a></li>
+            <li><a href="mailto:titodevwork@gmail.com" aria-label="Email" class="icon solid fa-envelope"></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Roberto Goyco. <span aria-hidden="true">//</span></p>
+    </div>
+  </footer>
 
-
-
-						</div>
-
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://github.com/SinProp" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="http://www.linkedin.com/in/roberto-goyco-jr" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:titodevwork@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/fontawesome-all.min.js" defer></script>
+  <script src="assets/js/code-rain.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggleBtn = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+    if(saved === 'light') document.documentElement.classList.add('light');
+    toggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('light');
+      localStorage.setItem('theme', document.documentElement.classList.contains('light') ? 'light' : 'dark');
+    });
+    const io = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }), { threshold: .12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
 </html>
