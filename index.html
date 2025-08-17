@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/clean.css" />
   <link rel="stylesheet" href="assets/css/code-rain.css" /> <!-- added -->
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
   <link rel="icon" href="images/avatar.jpg" />
 </head>
 <body>
@@ -21,6 +22,7 @@
         <ul class="nav-links">
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -53,7 +55,7 @@
         <div class="section-head">
           <span class="section-eyebrow">ABOUT</span>
           <h2 id="about-heading">Craft, iteration & clarity.</h2>
-          <p>I enjoy translating ambiguous operational needs into clear, testable slices of software. I lean on fast feedback, domain empathy, and clean architecture patterns. Below are representative projects balancing reliability, usability and speed of delivery.</p>
+          <p>Full‑stack engineer & AI practitioner translating ambiguous operational needs into resilient, testable software. I pair Python / Flask / React delivery with SQL data modeling, cloud deployment (AWS & Azure) and workflow automation (Microsoft 365 / Power Platform) to remove friction for internal users. Comfortable owning the SDLC end‑to‑end: scoping, slicing, building, instrumenting, iterating.</p>
         </div>
       </div>
     </section>
@@ -121,11 +123,87 @@
         <div class="section-head">
           <span class="section-eyebrow">STACK</span>
           <h2 id="skills-heading">Skills & Tooling</h2>
-          <p>Representative stack I use to ship resilient internal products & data‑informed features.</p>
+          <p>Representative capabilities across languages, frameworks, cloud, data, AI & delivery practices.</p>
         </div>
-        <ul class="skill-cloud" aria-label="Core technical skills">
-          <li>Python</li><li>Flask</li><li>FastAPI</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>REST APIs</li><li>SQL</li><li>Auth</li><li>CI/CD</li><li>AWS</li><li>RDS</li><li>S3</li><li>EC2</li><li>Docker</li><li>Git</li><li>Design Systems</li><li>Testing</li><li>Analytics</li>
-        </ul>
+        <div class="skills-grid" style="display:grid; gap:1.5rem; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));">
+          <div>
+            <h3 class="section-eyebrow" style="margin-bottom:.5rem;">Languages</h3>
+            <ul class="skill-cloud" aria-label="Languages"><li>Python</li><li>JavaScript (ES6+)</li><li>Java</li><li>SQL</li><li>HTML5</li><li>CSS3</li></ul>
+          </div>
+          <div>
+            <h3 class="section-eyebrow" style="margin-bottom:.5rem;">Frameworks</h3>
+            <ul class="skill-cloud" aria-label="Frameworks"><li>Flask</li><li>Django</li><li>FastAPI</li><li>Express</li><li>React</li><li>Bootstrap</li></ul>
+          </div>
+          <div>
+            <h3 class="section-eyebrow" style="margin-bottom:.5rem;">Cloud & DevOps</h3>
+            <ul class="skill-cloud" aria-label="Cloud & DevOps"><li>AWS (EC2, S3, RDS)</li><li>Azure</li><li>CI/CD</li><li>Docker</li><li>GitHub</li><li>IaC (light)</li></ul>
+          </div>
+          <div>
+            <h3 class="section-eyebrow" style="margin-bottom:.5rem;">Data & Auth</h3>
+            <ul class="skill-cloud" aria-label="Data & Auth"><li>Relational Modeling</li><li>Custom SQL</li><li>Reporting</li><li>Smartsheet API</li><li>Bcrypt</li><li>Permissions Models</li></ul>
+          </div>
+          <div>
+            <h3 class="section-eyebrow" style="margin-bottom:.5rem;">AI & Automation</h3>
+            <ul class="skill-cloud" aria-label="AI & Automation"><li>OpenAI GPT</li><li>Anthropic Claude</li><li>Gemini</li><li>Prompt Design</li><li>Power Apps</li><li>Power Automate</li></ul>
+          </div>
+          <div>
+            <h3 class="section-eyebrow" style="margin-bottom:.5rem;">Practices & Other</h3>
+            <ul class="skill-cloud" aria-label="Practices & Other"><li>REST APIs</li><li>Testing</li><li>Analytics</li><li>Design Systems</li><li>Project Leadership</li><li>Process Optimization</li></ul>
+          </div>
+        </div>
+        <p style="margin-top:2rem; font-size:.9rem; color:var(--text-secondary);">Also hands‑on with: Jinja, Mongoose, Postman, SharePoint Lists, Office 365 workflow automation, MVC structuring, performance profiling, iterative delivery.</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="reveal" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">EXPERIENCE</span>
+          <h2 id="experience-heading">Professional Impact</h2>
+          <p>Selected roles highlighting end‑to‑end product ownership, automation, and data‑driven process improvement.</p>
+        </div>
+        <div class="timeline" role="list" style="display:grid; gap:2rem;">
+          <article class="exp-item" role="listitem">
+            <header>
+              <h3 style="margin:0; font-size:1.1rem;">Volunteer Developer – Volunteers of America (FL Program)</h3>
+              <p style="margin:.25rem 0 0; font-size:.85rem; letter-spacing:.5px; text-transform:uppercase; color:var(--text-secondary);">Nov 2023 – Present • Ocala, FL</p>
+            </header>
+            <ul class="exp-bullets">
+              <li>Digitized paper clinician competency processes via Power Apps & SharePoint Lists for searchable, reportable data.</li>
+              <li>Introduced SQL query automation to accelerate monthly grant & state compliance reporting.</li>
+              <li>Used generative AI to produce scenario‑based interview prompts, standardizing competency evaluation.</li>
+              <li>Built & deployed nightly veteran check‑in web app (React / Python / SQL on Azure) active across 10+ locations.</li>
+            </ul>
+          </article>
+          <article class="exp-item" role="listitem">
+            <header>
+              <h3 style="margin:0; font-size:1.1rem;">Full Stack Developer & IT Systems Manager – Island Millwork</h3>
+              <p style="margin:.25rem 0 0; font-size:.85rem; letter-spacing:.5px; text-transform:uppercase; color:var(--text-secondary);">Dec 2021 – Present • Ocala, FL</p>
+            </header>
+            <ul class="exp-bullets">
+              <li>Owned design & ongoing evolution of labor cost tracking platform (Flask, SQL, Jinja) used daily by 10+ staff.</li>
+              <li>Resolved “estimated vs actual” variance visibility with auto‑tallying shift capture & departmental aggregation.</li>
+              <li>Implemented granular permissions through custom user model enabling secure report access & update flows.</li>
+              <li>Integrated Smartsheet & other APIs to surface fabrication‑ready jobs in real time.</li>
+              <li>Deployed on AWS (EC2/RDS/S3) with sustainable MVC code organization & documentation (SOPs).</li>
+              <li>Leveraged AI tooling (OpenAI, Claude) plus encryption (Bcrypt) to enhance features & security posture.</li>
+            </ul>
+          </article>
+          <article class="exp-item" role="listitem">
+            <header>
+              <h3 style="margin:0; font-size:1.1rem;">Operations Lead / Project Manager – Island Millwork</h3>
+              <p style="margin:.25rem 0 0; font-size:.85rem; letter-spacing:.5px; text-transform:uppercase; color:var(--text-secondary);">Aug 2020 – Mar 2024 • Ocala, FL</p>
+            </header>
+            <ul class="exp-bullets">
+              <li>Standardized contract submittals & drafting workflows, improving downstream fabrication accuracy.</li>
+              <li>Programmed CNC g‑code paths & trained team on AutoCAD + machine ops, accelerating onboarding.</li>
+              <li>Drove post‑mortem job analysis enabling tighter estimation models & margin improvement.</li>
+              <li>Led 15‑person team with SOP‑based onboarding; improved delegation & accountability.</li>
+              <li>Built cloud spreadsheet estimation algorithms to support new estimators with transparent costing.</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -152,9 +230,9 @@
         <div>
           <h3 class="section-eyebrow" style="margin-bottom:1rem;">LINKS</h3>
           <ul class="social-list">
-            <li><a href="https://github.com/SinProp" aria-label="GitHub" class="icon brands fa-github"></a></li>
-            <li><a href="http://www.linkedin.com/in/roberto-goyco-jr" aria-label="LinkedIn" class="icon brands fa-linkedin"></a></li>
-            <li><a href="mailto:titodevwork@gmail.com" aria-label="Email" class="icon solid fa-envelope"></a></li>
+            <li><a href="https://github.com/SinProp" aria-label="GitHub" class="fab fa-github"></a></li>
+            <li><a href="http://www.linkedin.com/in/roberto-goyco-jr" aria-label="LinkedIn" class="fab fa-linkedin"></a></li>
+            <li><a href="mailto:titodevwork@gmail.com" aria-label="Email" class="fas fa-envelope"></a></li>
           </ul>
         </div>
       </div>
@@ -163,7 +241,6 @@
   </footer>
 
   <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/fontawesome-all.min.js" defer></script>
   <script src="assets/js/code-rain.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
